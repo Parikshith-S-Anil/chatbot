@@ -1,0 +1,464 @@
+{
+  "intents": [
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about yourself",
+        "What is your purpose?",
+        "Who are you?",
+        "What can you help me with?"
+      ],
+      "responses": ["I'm VEGA (Vidya's Educational Guidance and Assistance) chatbot. I was developed as part of the project implemented by group 9. I can assist you with all the college-related queries without fail. How can I assist you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "admissions",
+        "How can I apply for admission?",
+        "What is the admission process?",
+        "When do the admissions start?",
+        "How do I apply to the college?",
+        "What documents are needed for admission?",
+        "Is there an entrance exam for admission?"
+      ],
+      "responses": ["You can find detailed information about the admission process on the official website here: [Admissions](https://vidyatcklmr.ac.in/admissions.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_engineering_curriculum",
+      "patterns": [
+        "Civil Engineering curriculum",
+        "Civil Engineering syllabus",
+        "Civil Engineering semester courses",
+        "Civil Engineering subjects",
+        "CE syllabus",
+        "What topics are covered in Civil Engineering?",
+        "Can you provide details about Civil Engineering courses?"
+      ],
+      "responses": [
+        "Semesters 1 and 2:\n\nIn the first year, Civil Engineering students undertake foundational courses, similar to other branches:\n\n- Mathematics I & II\n- Physics\n- Chemistry\n- Engineering Graphics\n- Basic Electrical and Electronics Engineering\n- Algorithmic Thinking with Python\n- Life Skills and Professional Communication\n- Health and Wellness\n- Engineering Workshops\n\nSemesters 3 to 8:\n\nCore subjects for Civil Engineering include:\n\n- Mechanics of Solids\n- Fluid Mechanics\n- Surveying\n- Geotechnical Engineering\n- Structural Analysis\n- Hydraulics and Hydraulic Machinery\n- Environmental Engineering\n- Design of Concrete Structures\n- Transportation Engineering\n- Water Resources Engineering\n- Construction Management\n- Advanced Structural Design\n- Elective Courses\n- Project Work and Seminars"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact",
+        "How can I contact the college?",
+        "What is the college telephone number?",
+        "Can I get your contact number?",
+        "Is there an email address for inquiries?",
+        "What are the office hours for the college?"
+      ],
+      "responses": ["You can contact the college through the details provided here: [Contact Us](https://vidyatcklmr.ac.in/contact_us.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses",
+        "What courses are offered in the college?",
+        "Can you tell me about the available courses?",
+        "What are the branches in the college?",
+        "Are there any new courses introduced?",
+        "What is the duration of the courses?"
+      ],
+      "responses": ["We offer various courses. Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, Civil Engineering. For more information, visit: [Courses Offered](https://vidyatcklmr.ac.in/departments.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "created",
+      "patterns": [
+        "who created you",
+        "who made you",
+        "who developed you?",
+        "what is your origin?"
+      ],
+      "responses": ["I am Created by S8 Main project Group 9 Members"],
+      "context_set": ""
+    },
+    {
+      "tag": "eee_curriculum",
+      "patterns": [
+        "EEE syllabus",
+        "Electrical and Electronics Engineering curriculum",
+        "EEE semester courses",
+        "Electrical and Electronics Engineering subjects",
+        "What are the key subjects in EEE?",
+        "Can you explain the EEE coursework?"
+      ],
+      "responses": [
+        "Semesters 1 and 2:\n\nIn the first year, Electrical and Electronics Engineering students undertake foundational courses, similar to other branches:\n\n- Mathematics I & II\n- Physics\n- Chemistry\n- Engineering Graphics\n- Basic Electrical and Electronics Engineering\n- Algorithmic Thinking with Python\n- Life Skills and Professional Communication\n- Health and Wellness\n- Engineering Workshops\n\nSemesters 3 to 8:\n\nCore subjects for Electrical and Electronics Engineering include:\n\n- Electric Circuit Theory\n- Electromagnetic Theory\n- Electrical Machines\n- Power Systems\n- Control Systems\n- Digital Electronics\n- Microprocessors and Microcontrollers\n- Power Electronics\n- Signal Processing\n- Renewable Energy Systems\n- High Voltage Engineering\n- Elective Courses\n- Project Work and Seminars"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Talk to you later",
+        "I have to go now",
+        "Thanks, see you!"
+      ],
+      "responses": ["Sad to see you go :(", "Goodbye!", "Come back soon!"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "How are you?",
+        "hi",
+        "hai",
+        "What's up?",
+        "How's it going?"
+      ],
+      "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "Does the college have a library?",
+        "Where is the library located?",
+        "What are the library timings?",
+        "What resources are available in the library?",
+        "Can I borrow books from the library?"
+      ],
+      "responses": ["Yes, the college has a library. The College Library comprises a Central Library along with various Departmental Libraries, collectively housing an expanding collection of over 37,520 volumes and 13,386 titles across diverse fields, including Engineering, Technology, and Sciences. It also has an exclusive collection in both Malayalam and English literatures, encouraging students to cultivate reading habits. For more details, visit: [Central Library](https://vidyaacademy.ac.in/department_details.php?dep_id=25)."],
+      "context_set": ""
+    },
+    {
+      "tag": "mechanical_engineering_curriculum",
+      "patterns": [
+        "ME syllabus",
+        "Mechanical Engineering syllabus",
+        "Mechanical Engineering semester courses",
+        "Mechanical Engineering subjects",
+        "What are the core subjects in Mechanical Engineering?",
+        "Can you explain the Mechanical Engineering courses?"
+      ],
+      "responses": [
+        "Semesters 1 and 2:\n\nIn the first year, Mechanical Engineering students undertake foundational courses, similar to other branches:\n\n- Mathematics I & II\n- Physics\n- Chemistry\n- Engineering Graphics\n- Basic Electrical and Electronics Engineering\n- Algorithmic Thinking with Python\n- Life Skills and Professional Communication\n- Health and Wellness\n- Engineering Workshops\n\nSemesters 3 to 8:\n\nCore subjects for Mechanical Engineering include:\n\n- Engineering Mechanics\n- Thermodynamics\n- Fluid Mechanics\n- Strength of Materials\n- Heat and Mass Transfer\n- Machine Design\n- Dynamics of Machinery\n- Manufacturing Technology\n- Control Systems\n- Refrigeration and Air Conditioning\n- Power Plant Engineering\n- CAD/CAM\n- Elective Courses\n- Project Work and Seminars"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement",
+        "How are the placements in the college?",
+        "placement?",
+        "Tell me about the college placements.",
+        "What is the placement record?",
+        "What companies visit for placements?",
+        "Is there any placement training provided?"
+      ],
+      "responses": ["The college has a strong placement record. There are many training programs designed to enhance the capabilities of students to meet the expectations of the industry. During the second, third, and fourth years, one hour per week is dedicated to co-curricular activities, with special focus on placement-oriented training aimed at the overall development of the students. For more details, visit: [Placements](https://vidyatcklmr.ac.in/department_details.php?dep_id=24)."],
+      "context_set": ""
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is the principal?",
+        "who is the principal of vidya",
+        "who is the principal of college",
+        "principal?",
+        "principal",
+        "Can you tell me about the principal?",
+        "What is the educational background of the principal?"
+      ],
+      "responses": ["Vidya's principal is Dr. MathavaRaj Ravikumar"],
+      "context_set": ""
+    },
+    {
+      "tag": "semester_curriculum",
+      "patterns": [
+        "Semesters 1 and 2 courses for CSE",
+        "first year subjects for Cse",
+        "Semesters 3 to 8 courses for cse",
+        "Computer Science core subjects",
+        "CSE syllabus",
+        "What are the elective subjects in CSE?",
+        "Can you provide details about the CSE curriculum?"
+      ],
+      "responses": [
+        "Semesters 1 and 2:\n\nIn the first year, students across all engineering branches undertake foundational courses, including:\n\n- Mathematics I & II\n- Physics\n- Chemistry\n- Engineering Graphics\n- Basic Electrical and Electronics Engineering\n- Algorithmic Thinking with Python\n- Life Skills and Professional Communication\n- Health and Wellness\n- Engineering Workshops\n\nThese courses establish a solid foundation in essential engineering principles.\n\nSemesters 3 to 8:\n\nFrom the third semester onwards, the curriculum becomes more specialized, focusing on core subjects related to Computer Science and Engineering. While the exact subjects may vary based on the university's curriculum updates, typical courses include:\n\n- Discrete Computational Structures\n- Data Structures and Algorithms\n- Computer Organization and Architecture\n- Operating Systems\n- Database Management Systems\n- Theory of Computation\n- Software Engineering\n- Computer Networks\n- Compiler Design\n- Artificial Intelligence\n- Machine Learning\n- Web Technologies\n- Cyber Security\n- Project Work and Seminars"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports",
+        "What are the sports facilities in the college?",
+        "Do you have a sports team?",
+        "Can I join sports?",
+        "What sports are offered?",
+        "Are there any competitions for sports?"
+      ],
+      "responses": ["The college provides a variety of sports facilities, including a large playground, and courts for various sports like football, basketball, volleyball, and badminton. There are also athletics facilities and opportunities to participate in inter-college competitions."],
+      "context_set": ""
+    },
+    {
+      "tag": "student_clubs",
+      "patterns": [
+        "student clubs",
+        "What clubs are available?",
+        "Tell me about the student clubs.",
+        "Are there any extracurricular activities?",
+        "What are the student clubs in the college?",
+        "How can I join a student club?",
+        "Are there any events organized by clubs?"
+      ],
+      "responses": ["The college offers several clubs for students to enhance their creativity and leadership skills. You can find details about the clubs here: [Student Clubs](https://vidyatcklmr.ac.in/clubs.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "vidya",
+      "patterns": [
+        "about vidya",
+        "about VAST_TC",
+        "about college",
+        "vidya",
+        "VAST_TC",
+        "What is the history of Vidya Academy?",
+        "What facilities are available at Vidya Academy?"
+      ],
+      "responses": ["Vidya Academy of Science and Technology Technical Campus (VAST TC), one of the top 10 Engineering colleges in Trivandrum and leading institution in the state was established in August 2013 with the aim of providing outcome-based education to students of engineering and technology. An experiential mission statement aligned to a futuristic vision holds the entire institution and the stakeholders together in the continuous pursuit of excellence. In order to achieve the education objectives, scaling up the eco and infrastructures, vitalizing teaching-learning structures and resources, and engineering of proactive procedures and practices are instituted, as continuously evolving governance measures. Vidya Academy of Science and Technology Technical Campus offers to its students, value-based education founded on fundamentals and core competence, research orientation, and social and life skills."],
+      "context_set": ""
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "ktu website",
+        "ktu portal",
+        "What is the official website of KTU?",
+        "Can I access KTU information online?"
+      ],
+      "responses": ["ktu website link.[Ktu](https://vidyatcklmr.ac.in/department_details.php?dep_id=24)."],
+      "context_set": ""
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "academics",
+        "What academic programs are offered?",
+        "Are there any academic resources available?"
+      ],
+      "responses": ["Vidya Academy of Science and Technology (VAST) offers a range of academic programs designed to provide students with a strong foundation in the field of engineering and technology. The institution is affiliated with APJ Abdul Kalam Technological University (KTU) and offers undergraduate, postgraduate, and doctoral programs in various disciplines.You can find information about academics here: [Academics](https://vidyatcklmr.ac.in/page.php?page=3)."],
+      "context_set": ""
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "resources",
+        "What types of resources are available?",
+        "Can you provide a list of resources?"
+      ],
+      "responses": ["Vidya Academy of Science and Technology (VAST) offers a variety of resources to support students in their academic and personal development. Some of the key resources available at Vidya include:You can find various resources here: [Resources](https://vidyatcklmr.ac.in/index.php#)."],
+      "context_set": ""
+    },
+    {
+      "tag": "naac",
+      "patterns": [
+        "naac",
+        "What is NAAC?",
+        "Why is NAAC accreditation important?"
+      ],
+      "responses": ["Vidya Academy of Science and Technology (VAST) is accredited by the National Assessment and Accreditation Council (NAAC), which is an autonomous body established by the University Grants Commission (UGC) to assess and accredit institutions of higher education in India. NAAC accreditation is a mark of quality and signifies that an institution meets the required academic, infrastructural, and administrative standards set by the council.Find details about NAAC here: [NAAC](https://vidyatcklmr.ac.in/page.php?page=110)."],
+      "context_set": ""
+    },
+    {
+      "tag": "online_fee_payment",
+      "patterns": [
+        "online fee payment",
+        "How can I pay my fees online?",
+        "Is online fee payment secure?"
+      ],
+      "responses": ["You can make online fee payments here: [Online Fee Payment](http://vidyatcklmr.ac.in/page.php?page=85)."],
+      "context_set": ""
+    },
+    {
+      "tag": "regulations",
+      "patterns": [
+        "regulations",
+        "What are the college regulations?",
+        "Are there any guidelines for students?"
+      ],
+      "responses": ["Access the college regulations here: [Regulations](http://vidyatcklmr.ac.in/page.php?page=107)."],
+      "context_set": ""
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "transportation",
+        "What transportation options are available?",
+        "Is there a college bus service?"
+      ],
+      "responses": ["Vidya Academy of Science and Technology (VAST) provides comprehensive transportation facilities for both students and staff to ensure convenient access to the campus from various locations.Details about transportation can be found here: [Transportation](http://vidyatcklmr.ac.in/page.php?page=72)."],
+      "context_set": ""
+    },
+    {
+      "tag": "annual_report",
+      "patterns": [
+        "annual report",
+        "Where can I find the annual report?",
+        "What does the annual report include?"
+      ],
+      "responses": ["You can view the annual report here: [Annual Report](https://www.vidyatcklmr.ac.in/page.php?page=138)."],
+      "context_set": ""
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "campus tour",
+        "Can I take a campus tour?",
+        "What does the campus tour include?"
+      ],
+      "responses": ["For a virtual campus tour, click here: [Campus Tour](https://www.vidyatcklmr.ac.in/page.php?page=104)."],
+      "context_set": ""
+    },
+    {
+      "tag": "gallery",
+      "patterns": [
+        "gallery",
+        "photo album",
+        "Where can I see photos of the college?",
+        "Are there any videos of college events?"
+      ],
+      "responses": ["You can view the college photo gallery here: [Gallery](https://vidyatcklmr.ac.in/photo_album.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "iedc",
+      "patterns": [
+        "iedc",
+        "Innovation and Entrepreneurship Development Cell",
+        "What is IEDC?",
+        "How can I participate in IEDC activities?"
+      ],
+      "responses": ["The Innovation and Entrepreneurship Development Centre (IEDC) at Vidya Academy of Science and Technology (VAST) plays a pivotal role in fostering a culture of innovation, entrepreneurship, and research among students.You can learn more about IEDC here: [IEDC](https://vidyatcklmr.ac.in/page.php?page=108)."],
+      "context_set": ""
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "achievements",
+        "college achievements",
+        "What achievements does the college have?",
+        "Can you list some notable achievements?"
+      ],
+      "responses": ["Check out the college achievements here: [Achievements](https://vidyatcklmr.ac.in/index.php#1)."],
+      "context_set": ""
+    },
+    {
+      "tag": "staff_area",
+      "patterns": [
+        "staff area",
+        "staff portal",
+        "How can staff access their area?",
+        "Are there resources available for staff?"
+      ],
+      "responses": ["Access the staff area here: [Staff Area](https://vidyatcklmr.ac.in/index.php#2)."],
+      "context_set": ""
+    },
+    {
+      "tag": "student_area",
+      "patterns": [
+        "student area",
+        "student portal",
+        "How can students access their area?",
+        "What resources are available for students?"
+      ],
+      "responses": ["Visit the student area here: [Student Area](https://vidyatcklmr.ac.in/index.php#3)."],
+      "context_set": ""
+    },
+    {
+      "tag": "notification",
+      "patterns": [
+        "notifications",
+        "latest notifications",
+        "notice board",
+        "Where can I find the latest notifications?",
+        "Are there any important notices?"
+      ],
+      "responses": ["Stay updated with notifications here: [Notifications](https://vidyatcklmr.ac.in/index.php#4)."],
+      "context_set": ""
+    },
+    {
+      "tag": "site_map",
+      "patterns": [
+        "site map",
+        "sitemap",
+        "What is the site map?",
+        "How can I navigate the website?"
+      ],
+      "responses": ["You can view the site map here: [Site Map](https://vidyatcklmr.ac.in/site_map.php)."],
+      "context_set": ""
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "YouTube",
+        "YouTube channel",
+        "What content is available on the YouTube channel?",
+        "Can I subscribe to the YouTube channel?"
+      ],
+      "responses": ["Check out our official YouTube channel: [YouTube](https://www.youtube.com/channel/UC7RwTPZ139XCJpOML2PbJ_A)."],
+      "context_set": ""
+    },
+    {
+      "tag": "facebook",
+      "patterns": [
+        "Facebook",
+        "Facebook page",
+        "How can I follow you on Facebook?",
+        "What updates are posted on Facebook?"
+      ],
+      "responses": ["Follow us on Facebook here: [Facebook](https://www.facebook.com/vasttcofficial)."],
+      "context_set": ""
+    },
+    {
+      "tag": "vision_and_mission",
+      "patterns": [
+        "vision and mission",
+        "vision",
+        "mission",
+        "What is the vision of the college?",
+        "Can you explain the mission statement?"
+      ],
+      "responses": ["Vision\nProgress Through Education\n\n\nMission\nTo seek, strive for and scale greater heights of quality education."],
+      "context_set": ""
+    },
+    {
+      "tag": "governing_body",
+      "patterns": [
+        "governing body",
+        "college governing body",
+        "Who is part of the governing body?",
+        "What is the role of the governing body?"
+      ],
+      "responses": ["You can find information about the governing body here: [Governing Body](https://vidyatcklmr.ac.in/page.php?sub_page=6)."],
+      "context_set": ""
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+        "infrastructure",
+        "college infrastructure",
+        "What facilities are available in the college?",
+        "Can you describe the college infrastructure?"
+      ],
+      "responses": ["The infrastructure at Vidya Academy of Science and Technology (VAST) is designed to provide a modern, comfortable, and conducive environment for learning, research, and extracurricular activities.Check out the college infrastructure here: [Infrastructure](https://vidyatcklmr.ac.in/newpage.php?new=2)."],
+      "context_set": ""
+    }
+  ]
+}

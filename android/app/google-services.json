@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821751365376",
+    "project_id": "chatbot-5078c",
+    "storage_bucket": "chatbot-5078c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821751365376:android:4b6ed39d1439bcfa967de5",
+        "android_client_info": {
+          "package_name": "com.parikshith.chatbot.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6o6IuTBxsLYjXYJCdhUB6XihJz-4ez-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
