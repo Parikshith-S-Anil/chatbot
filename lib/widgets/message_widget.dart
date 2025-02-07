@@ -40,8 +40,8 @@ class MessageWidget extends StatelessWidget {
             ),
             SizedBox(width: 10),
             Flexible( // Prevent overflow by making the text flexible
-              child: RichText(
-                text: TextSpan(
+              child: SelectableText.rich(
+                 TextSpan(
                   children: _buildMessageText(message),
                 ),
               ),

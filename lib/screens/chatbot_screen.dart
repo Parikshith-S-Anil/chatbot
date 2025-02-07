@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../services/intent_service.dart';
 import '../widgets/message_widget.dart';
@@ -98,7 +99,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
             child: Text('Help'),
             style: TextButton.styleFrom(
               foregroundColor: Colors.black,
-              backgroundColor: Color(0xFFF4DA96),
+              backgroundColor: Colors.grey,
             ),
           ),
           SizedBox(width: 5,),
@@ -109,7 +110,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
             child: Text('ERP Login'),
             style: TextButton.styleFrom(
               foregroundColor: Colors.black,
-              backgroundColor: Color(0xFFF4DA96),
+              backgroundColor: Colors.grey,
             ),
           ),
           SizedBox(width: 5,),
@@ -138,11 +139,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Image.asset(
-                            isDarkMode ? 'assets/darklogo.png' : 'assets/lightlogo.jpg',
-                            height: 150,
-                            width: 150,
-                          ),
+                          Lottie.asset('assets/logo3.json'),
                           SizedBox(height: 10),
                           Padding(
                             padding: EdgeInsets.only(left: 30, right: 30),

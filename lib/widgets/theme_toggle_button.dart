@@ -16,7 +16,7 @@ class ThemeToggleButton extends StatelessWidget {
       onPressed: onToggle,
       style: TextButton.styleFrom(
         foregroundColor: Colors.black,
-        backgroundColor: Color(0xFFF4DA96),
+        backgroundColor: Colors.grey,
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       ),
       child: Text(
