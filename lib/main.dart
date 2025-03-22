@@ -1,4 +1,4 @@
-import 'package:chatbot/screens/chatbot_screen.dart';
+
 import 'package:chatbot/screens/splash.dart';
 import 'package:flutter/material.dart';
  // Import the splash screen

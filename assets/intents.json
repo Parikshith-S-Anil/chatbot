@@ -22,7 +22,7 @@
         "What documents are needed for admission?",
         "Is there an entrance exam for admission?"
       ],
-      "responses": ["You can find detailed information about the admission process on the official website here: [Admissions](https://vidyatcklmr.ac.in/admissions.php)."],
+      "responses": ["You can find detailed information about the admission process on the official website here: [Admissions](https://vidyaacademy.ac.in/admission_details.php?adm_id=5)."],
       "context_set": ""
     },
     {
@@ -232,7 +232,7 @@
         "What is the history of Vidya Academy?",
         "What facilities are available at Vidya Academy?"
       ],
-      "responses": ["Vidya Academy of Science and Technology Technical Campus (VAST TC), one of the top 10 Engineering colleges in Trivandrum and leading institution in the state was established in August 2013 with the aim of providing outcome-based education to students of engineering and technology. An experiential mission statement aligned to a futuristic vision holds the entire institution and the stakeholders together in the continuous pursuit of excellence. In order to achieve the education objectives, scaling up the eco and infrastructures, vitalizing teaching-learning structures and resources, and engineering of proactive procedures and practices are instituted, as continuously evolving governance measures. Vidya Academy of Science and Technology Technical Campus offers to its students, value-based education founded on fundamentals and core competence, research orientation, and social and life skills."],
+      "responses": ["Vidya Academy of Science and Technology Technical Campus (VAST TC), one of the top 10 Engineering colleges in Trivandrum and leading institution in the state was established in August 2013 with the aim of providing outcome-based education to students of engineering and technology. An experiential mission statement aligned to a futuristic vision holds the entire institution and the stakeholders together in the continuous pursuit of excellence. In order to achieve the education objectives, scaling up the eco and infrastructures, vitalizing teaching-learning structures and resources, and engineering of proactive procedures and practices are instituted, as continuously evolving governance measures. Vidya Academy of Science and Technology Technical Campus offers to its students, value-based education founded on fundamentals and core competence, research orientation, and social and life skills.[Vidya](https://vidyatcklmr.ac.in/index.php)"],
       "context_set": ""
     },
     {
@@ -243,7 +243,7 @@
         "What is the official website of KTU?",
         "Can I access KTU information online?"
       ],
-      "responses": ["ktu website link.[Ktu](https://vidyatcklmr.ac.in/department_details.php?dep_id=24)."],
+      "responses": ["ktu website link.[Ktu](https://www.ktu.edu.in/)."],
       "context_set": ""
     },
     {
@@ -427,6 +427,17 @@
       "context_set": ""
     },
     {
+      "tag": "instagram",
+      "patterns": [
+        "Instagram",
+        "Instagram page",
+        "How can I follow you on Instagram?",
+        "What updates are posted on instagram?"
+      ],
+      "responses": ["Follow us on instagram here: [Instagram](https://www.instagram.com/vasttcofficial?igsh=c210ZGlmMGx5aWpi)."],
+      "context_set": ""
+    },
+    {
       "tag": "vision_and_mission",
       "patterns": [
         "vision and mission",
@@ -459,6 +470,464 @@
       ],
       "responses": ["The infrastructure at Vidya Academy of Science and Technology (VAST) is designed to provide a modern, comfortable, and conducive environment for learning, research, and extracurricular activities.Check out the college infrastructure here: [Infrastructure](https://vidyatcklmr.ac.in/newpage.php?new=2)."],
       "context_set": ""
+    },
+    {
+      "tag": "establishment",
+      "patterns": [
+        "Established date",
+        "When was Vidya Academy established?",
+        "What is the establishment date of Vidya Academy?",
+        "When did Vidya Academy start?",
+        "When was Vidya Academy of Science and Technology founded?",
+        "When was Vidya Academy of Science and Technology Technical Campus established?"
+      ],
+      "responses": [
+        "The Vidya Academy of Science and Technology in Thrissur, Kerala began functioning in August 2003. The Vidya Academy of Science and Technology Technical Campus in Thiruvananthapuram, Kerala was established in 2013."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "founder",
+        "Who is the founder of Vidya Academy?",
+        "Who established Vidya Academy?",
+        "Who founded Vidya Academy of Science and Technology?",
+        "Tell me about the founder of Vidya Academy?",
+        "Who is the founder of Vidya International Charitable Trust?"
+      ],
+      "responses": [
+        "Er. K.R. Brahmadathan is the founder Executive Director of the Vidya International Charitable Trust (VICT), which established the Vidya Academy of Science and Technology in Thrissur. Dr. D Balakrishnan is the founder Academic Director."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college_office",
+      "patterns": [
+        "Where is the college office?",
+        "Location of college office?",
+        "Where can I find the college office?",
+        "What is the room number of the college office?",
+        "Tell me the location of the college office."
+      ],
+      "responses": [
+        "The college office is located at SB 607."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "language_lab",
+      "patterns": [
+        "Where can I find the language lab?",
+        "Location of language lab?",
+        "Where is the language lab?",
+        "What is the room number of the language lab?",
+        "Tell me the location of the language lab."
+      ],
+      "responses": [
+        "The language lab is located at SB 616."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "computer_lab",
+      "patterns": [
+        "Where is the computer lab?",
+        "Where is the CSE lab?",
+        "Where can I find the computer lab?",
+        "Location of CSE lab?",
+        "Where are CCLab and FOSSlab located?",
+        "Where is the CCLab?",
+        "Where is the FOSSlab?"
+      ],
+      "responses": [
+        "The computer lab includes CCLab at SB 715 and FOSSlab at SB 713."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mech_lab",
+      "patterns": [
+        "Where is the mechanical lab?",
+        "Location of mechanical lab?",
+        "Where can I find the mechanical lab?",
+        "Where is the mech lab located?",
+        "Where is the mechanical lab situated?"
+      ],
+      "responses": [
+        "The mechanical lab is near the canteen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_lab",
+      "patterns": [
+        "Where is the civil lab?",
+        "Location of civil lab?",
+        "Where can I find the civil lab?",
+        "Where is the civil lab located?",
+        "Where is the civil lab situated?"
+      ],
+      "responses": [
+        "The civil lab is near the canteen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electronics_lab",
+      "patterns": [
+        "Where is the electronics lab?",
+        "Location of electronics lab?",
+        "Where can I find the electronics lab?",
+        "Where is the electronics lab located?",
+        "What are the room numbers for the electronics lab?",
+        "Where is the comp lab in the electronics department?",
+        "Where are the electronics workshops located?"
+      ],
+      "responses": [
+        "The electronics lab includes comp lab at SB 716 and workshops at SB 717, SB 718, SB 703, SB 704, SB 801, and EB 507."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mech_seminar_hall",
+      "patterns": [
+        "Where is the mechanical seminar hall?",
+        "Location of mechanical seminar hall?",
+        "Where can I find the mechanical seminar hall?",
+        "What is the room number of the mechanical seminar hall?"
+      ],
+      "responses": [
+        "The mechanical seminar hall is at SB 615."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_seminar_hall",
+      "patterns": [
+        "Where is the civil seminar hall?",
+        "Location of civil seminar hall?",
+        "Where can I find the civil seminar hall?",
+        "What is the room number of the civil seminar hall?"
+      ],
+      "responses": [
+        "The civil seminar hall is at SB 812."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_faculty_room",
+      "patterns": [
+        "Where is the civil faculty room?",
+        "Location of civil faculty room?",
+        "Where can I find the civil faculty room?",
+        "What is the room number of the civil faculty room?"
+      ],
+      "responses": [
+        "The civil faculty room is located at SB 811."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mech_faculty_room",
+      "patterns": [
+        "Where is the mechanical faculty room?",
+        "Location of mechanical faculty room?",
+        "Where can I find the mechanical faculty room?",
+        "What is the room number of the mechanical faculty room?"
+      ],
+      "responses": [
+        "The mechanical faculty room is located at SB 514."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cse_faculty_room",
+      "patterns": [
+        "Where is the CSE faculty room?",
+        "Location of CSE faculty room?",
+        "Where can I find the CSE faculty room?",
+        "What is the room number of the CSE faculty room?"
+      ],
+      "responses": [
+        "The CSE faculty room is located at EB 501."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ece_faculty_room",
+      "patterns": [
+        "Where is the ECE faculty room?",
+        "Location of ECE faculty room?",
+        "Where can I find the ECE faculty room?",
+        "What is the room number of the ECE faculty room?"
+      ],
+      "responses": [
+        "The ECE faculty room is located at EB 403."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electrical_faculty_room",
+      "patterns": [
+        "Where is the electrical faculty room?",
+        "Location of electrical faculty room?",
+        "Where can I find the electrical faculty room?",
+        "What is the room number of the electrical faculty room?"
+      ],
+      "responses": [
+        "The electrical faculty room is located at SB 613."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "trust_office",
+      "patterns": [
+        "Where is the trust office?",
+        "Location of trust office?",
+        "Where can I find the trust office?",
+        "What is the room number of the trust office?"
+      ],
+      "responses": [
+        "The trust office is located at SB 701."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iqac_office",
+      "patterns": [
+        "Where is the IQAC/IEDC office?",
+        "Location of IQAC office?",
+        "Where can I find the IQAC office?",
+        "What is the room number of the IQAC/IEDC office?"
+      ],
+      "responses": [
+        "The IQAC (IEDC) office is located at SB 714."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nss_office",
+      "patterns": [
+        "Where is the NSS office?",
+        "Location of NSS office?",
+        "Where can I find the NSS office?",
+        "What is the room number of the NSS office?"
+      ],
+      "responses": [
+        "The NSS office is located at SB 709."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "applied_science_faculty_room",
+      "patterns": [
+        "Where is the applied science faculty room?",
+        "Location of applied science faculty room?",
+        "Where can I find the applied science faculty room?",
+        "What is the room number of the applied science faculty room?"
+      ],
+      "responses": [
+        "The applied science faculty room is located at SB 809."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sick_room",
+      "patterns": [
+        "Where is the sick room?",
+        "Location of sick room?",
+        "Where can I find the sick room?",
+        "What is the room number of the sick room?"
+      ],
+      "responses": [
+        "The sick room is located at SB 516."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mech_hod",
+      "patterns": [
+        "Who is the HOD of mechanical department?",
+        "HOD of mechanical department?",
+        "Who is the head of the mechanical department?",
+        "Who is the mechanical department HOD?",
+        "Where is the HOD of the mechanical department located?"
+      ],
+      "responses": [
+        "The HOD of the mechanical department is Arun K L, HOD room at SB 514."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ece_hod",
+      "patterns": [
+        "Who is the HOD of ECE department?",
+        "HOD of ECE department?",
+        "Who is the head of the ECE department?",
+        "Who is the ECE department HOD?",
+        "Where is the HOD of the ECE department located?"
+      ],
+      "responses": [
+        "The HOD of the ECE department is Dr. Jayarenjini N,HOD room at EB 403."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eee_hod",
+      "patterns": [
+        "Who is the HOD of EEE department?",
+        "HOD of EEE department?",
+        "Who is the head of the EEE department?",
+        "Who is the EEE department HOD?",
+        "Where is the HOD of the EEE department located?"
+      ],
+      "responses": [
+        "The HOD of the EEE department is Dr. Praveen Rose T, HOD room at SB 618."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cse_hod",
+      "patterns": [
+        "Who is the HOD of CSE department?",
+        "HOD of CSE department?",
+        "Who is the head of the CSE department?",
+        "Who is the CSE department HOD?",
+        "Where is the HOD of the CSE department located?"
+      ],
+      "responses": [
+        "The HOD of the CSE department is Dr. C Brijilal Ruban, HOD room at EB 501."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_hod",
+      "patterns": [
+        "Who is the HOD of civil department?",
+        "HOD of civil department?",
+        "Who is the head of the civil department?",
+        "Who is the civil department HOD?",
+        "Where is the HOD of the civil department located?"
+      ],
+      "responses": [
+        "The HOD of the civil department is Dr. K Sargunan,HOD room SB 811."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "tech_fest_vyuha",
+      "patterns": [
+        "Tell me about Vyuha and the technical fest.",
+        "What is Vyuha and when is it conducted?",
+        "Details about Vidya College art fest and technical fest.",
+        "When does the art fest Vyuha happen?",
+        "When is the technical fest conducted?",
+        "What events are included in the technical fest?"
+      ],
+      "responses": [
+        "Vidya College Art Fest & Technical Fest Overview:\n\n1. Vyuha – Art Fest\nName: Vyuha\nStarted in: 2023\nFrequency: Conducted annually during the even semester.\nHighlights:\n- Showcases student talent in various art forms, including painting, dance, music, and drama.\n- Includes cultural performances, creative exhibitions, and interactive workshops.\n- Encourages participation from all departments, fostering creativity and teamwork.\n\n2. Technical Fest\nFrequency: Conducted during the even semester.\nHighlights:\n- Includes coding competitions, hackathons, paper presentations, and project expos.\n- Workshops and seminars conducted by industry experts to enhance technical knowledge.\n- Provides a platform for students to showcase innovative ideas and technical expertise.\n\nFor more details about Vyuha, visit the official website: [Vyuha Website](https://vidyavyuha.in/)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college_timings",
+      "patterns": [
+        "What are the college timings?",
+        "When does the college start and end?",
+        "Tell me the college hours.",
+        "What is the timing of classes in Vidya Academy?",
+        "When do classes start and finish?"
+      ],
+      "responses": [
+        "The college timings are from 9:00 AM to 12:50 PM and 1:30 PM to 4:00 PM. The college operates from Monday to Saturday, with the second and fourth Saturdays being holidays."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "student_count",
+      "patterns": [
+        "How many students are there in the college?",
+        "What is the approximate student count?",
+        "How many students are enrolled in Vidya Academy?",
+        "What is the student strength?",
+        "Number of students in Vidya Academy?"
+      ],
+      "responses": [
+        "The approximate number of students in Vidya Academy is around 1,200 to 1,500."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cse_location",
+      "patterns": [
+        "Where is the CSE department located?",
+        "Location of the CSE department?",
+        "Where can I find the CSE block?",
+        "Which block has the CSE department?",
+        "What is the location of the CSE department?"
+      ],
+      "responses": [
+        "The CSE department is located in the East Block."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ece_location",
+      "patterns": [
+        "Where is the ECE department located?",
+        "Location of the ECE department?",
+        "Where can I find the ECE block?",
+        "Which block has the ECE department?",
+        "What is the location of the ECE department?"
+      ],
+      "responses": [
+        "The ECE department is located in the East Block."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mech_location",
+      "patterns": [
+        "Where is the mechanical department located?",
+        "Location of the mechanical department?",
+        "Where can I find the mechanical block?",
+        "Which block has the mechanical department?",
+        "What is the location of the mechanical department?"
+      ],
+      "responses": [
+        "The mechanical department is located in the South Block."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electrical_location",
+      "patterns": [
+        "Where is the electrical department located?",
+        "Location of the electrical department?",
+        "Where can I find the electrical block?",
+        "Which block has the electrical department?",
+        "What is the location of the electrical department?"
+      ],
+      "responses": [
+        "The electrical department is located in the South Block."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civil_location",
+      "patterns": [
+        "Where is the civil department located?",
+        "Location of the civil department?",
+        "Where can I find the civil block?",
+        "Which block has the civil department?",
+        "What is the location of the civil department?"
+      ],
+      "responses": [
+        "The civil department is located in the South Block."
+      ],
+      "context_set": ""
     }
+
   ]
 }

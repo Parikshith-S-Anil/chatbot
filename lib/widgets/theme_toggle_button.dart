@@ -20,7 +20,7 @@ class ThemeToggleButton extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       ),
       child: Text(
-        isDarkMode ? 'Light' : 'Dark',
+        isDarkMode ? 'Light' : 'Dark',style: TextStyle(fontFamily: 'Quantico',fontWeight: FontWeight.bold),
       ),
     );
   }
