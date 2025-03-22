@@ -47,6 +47,7 @@ class OnboardingScreen extends StatelessWidget {
                   style: const TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Orbitronb'
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -57,7 +58,7 @@ class OnboardingScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 child: Text(
                   onboardingData[index]['subtitle']!,
-                  style: const TextStyle(fontSize: 16, color: Colors.grey),
+                  style: const TextStyle(fontSize: 16, color: Colors.grey,fontFamily: 'Quantico'),
                   textAlign: TextAlign.center,
                 ),
               ),

@@ -16,11 +16,11 @@ class MessageWidget extends StatelessWidget {
         margin: EdgeInsets.only(top: 8.0, bottom: 8.0, left: isUser ? 16.0 : 0, right: isUser ? 0 : 16.0),
         padding: EdgeInsets.all(12.0),
         decoration: BoxDecoration(
-          color: isUser ? Color(0xFF4CAF50) : Color(0xFF2A2A2A),
+          color: isUser ? Colors.blueGrey : Color(0xFF2A2A2A),
           borderRadius: BorderRadius.circular(8.0),
           boxShadow: [
             BoxShadow(
-              color: isUser ? Colors.green.withOpacity(0.3) : Colors.blue.withOpacity(0.3),
+              color: isUser ? Colors.lightBlueAccent.withOpacity(0.2) : Colors.blue.withOpacity(0.2),
               spreadRadius: 2,
               blurRadius: 5,
               offset: Offset(0, 3),
@@ -32,18 +32,20 @@ class MessageWidget extends StatelessWidget {
           children: [
             // User or Bot Icon
             CircleAvatar(
-              backgroundColor: isUser ? Color(0xFF4CAF50) : Color(0xFF2A2A2A),
+              backgroundColor: isUser ? Colors.blueGrey : Color(0xFF2A2A2A),
               child: Icon(
                 isUser ? Icons.person : Icons.chat_bubble_outline,
                 color: Colors.white,
               ),
             ),
             SizedBox(width: 10),
-            Flexible( // Prevent overflow by making the text flexible
+            Flexible(
+              // Prevent overflow by making the text flexible
               child: SelectableText.rich(
-                 TextSpan(
+                TextSpan(
                   children: _buildMessageText(message),
                 ),
+                style: TextStyle(fontFamily: 'Quantico'),
               ),
             ),
           ],
@@ -62,7 +64,7 @@ class MessageWidget extends StatelessWidget {
       if (match.start > lastMatchEnd) {
         children.add(TextSpan(
           text: message.substring(lastMatchEnd, match.start),
-          style: TextStyle(color: Colors.white, fontSize: 16),
+          style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Quantico'),
         ));
       }
 
@@ -72,6 +74,7 @@ class MessageWidget extends StatelessWidget {
           color: Colors.blue,
           decoration: TextDecoration.underline,
           fontSize: 16,
+          fontFamily: 'Quantico',
         ),
         recognizer: TapGestureRecognizer()
           ..onTap = () {
@@ -88,7 +91,7 @@ class MessageWidget extends StatelessWidget {
     if (lastMatchEnd < message.length) {
       children.add(TextSpan(
         text: message.substring(lastMatchEnd),
-        style: TextStyle(color: Colors.white, fontSize: 16),
+        style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Quantico'),
       ));
     }
 
