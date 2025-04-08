@@ -60,7 +60,7 @@ class _ChatbotScreenState extends State<ChatbotScreen>
         }
       }
     }
-    return "Sorry, I didn't understand that.";
+    return "Sorry, I didn't understand that.you can refer the help menu.";
   }
 
   Future<void> _sendMessage() async {

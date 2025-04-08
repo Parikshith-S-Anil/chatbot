@@ -1,28 +1,53 @@
-# chatbot
+# 🤖 Chatbot
 
-A new Flutter project.
+A Flutter project that features a chatbot with a clean onboarding experience.
 
-## Getting Started
+---
+
+## 📱 App Screenshots
+
+### 🟦 Splash Screen
+![Splash Screen](screenshots/splash.png)
+
+### 🟨 Onboarding Screen
+![Onboarding Screen](screenshots/onboarding.png)
+![Onboarding Screen](screenshots/onboarding2.png)
+
+
+### 💬 Chatbot Screen
+![Chatbot Screen](screenshots/chatbot.png)
+
+### ℹ️ About Screen
+![About Screen](screenshots/about.png)
+![About Screen](screenshots/about2.png)
+
+### 🆘 Help Screen
+![Help Screen](screenshots/help.png)
+
+> Make sure to add your actual images to a folder named `screenshots/` in your project directory.
+
+---
+
+## 🚀 Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Helpful resources:
+- [Flutter Codelab](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+## 🛠️ Installation
 
-## Installation
-
-To install the dependencies for this project, follow these steps:
+To install the dependencies:
 
 1. Clone the repository:
-2.  Navigate to the project directory:
-3.  Install the necessary dependencies:
-4. ## Running the Project
-
-To run the project on your local machine, follow these steps:
-
-1. Ensure you have a device connected or an emulator running.
-2. Run the project:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+2. Navigate into the project directory:
+   ```bash
+   cd your-repo-name
+3. Install the required dependencies:
+   ```bash
+   flutter pub get
